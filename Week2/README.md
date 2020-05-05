@@ -35,6 +35,48 @@ print(num1 * num2 // gcd(num1,num2))
 
 
 
+### 소수 찾기
+
+문제링크 [백준 1978번](https://www.acmicpc.net/problem/1978)
+
+소수의 정의 : 소수는 1과 자기자신 이외의 어떤 수로도 나누어지지 않는 수를 의미합니다. Prime number 라고 부릅니다.
+
+```python
+import sys
+
+
+N = int(sys.stdin.readline())
+num_list = list(map(int, sys.stdin.readline().split()))
+#정답을 저장할 변수 ans 선언
+ans = 0
+
+def prime(num):
+    if num == 1:
+        #숫자 1은 소수가 아니므로 False를 return한다.
+        return False
+    elif num == 2:
+        return True
+    for i in range(2, num):
+        #range(2,num) 은 2부터 자기 자신을 제외한 수까지의 수들을 의미한다.
+        if num % i == 0:
+            #나누어 떨어지는 수가 있다면 소수가 아니므로 False를 return한다.
+            return False
+    return True
+
+
+for i in num_list:
+    #prime(i)가 True라면 소수개수를 저장하는 변수 ans의 개수를 늘려준다.
+    if prime(i):
+        ans += 1
+
+print(ans)
+
+
+```
+
+
+
+
 
 
 
