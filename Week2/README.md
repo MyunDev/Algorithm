@@ -145,6 +145,8 @@ while(True):
 
 ***
 
+
+
 ### 프로그래머스 문제 : level1 실패율
 
 [문제링크 프로그래머스 실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)
