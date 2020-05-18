@@ -1,8 +1,4 @@
-## 3주차 알고리즘 문제
-
-### 1. 큐
-
-[백준 10845번](https://www.acmicpc.net/problem/10845)
+백준 10845번](https://www.acmicpc.net/problem/10845)
 
 알고리즘의 가장 기초 부분이라 할 수 있는 큐를 구현해 보았습니다.
 
@@ -50,4 +46,8 @@ for k in range(N):
         else:
             print(-1)
 ```
+
+
+
+
 
