@@ -10,6 +10,4 @@ def solution():
         answer.append(min(lst))
     return max(answer)
 
-
-print(solution()) 
-
+print(solution())
