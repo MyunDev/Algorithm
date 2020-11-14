@@ -20,7 +20,7 @@ def median(nums):
 def mode(nums):
     mode_dict = Counter(nums)
     modes = mode_dict.most_common()    
-    
+
     if len(nums) > 1 : 
         if modes[0][1] == modes[1][1]:
             mod = modes[1][0]
