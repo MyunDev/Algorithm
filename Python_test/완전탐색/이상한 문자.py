@@ -1,3 +1,6 @@
+
+# https://pjs21s.github.io/make-weird-sentence/
+
 def solution(s):
     new_list = s.split()
     new_word = ""
@@ -10,4 +13,3 @@ def solution(s):
         answer += " "
     
     return new_word[:-1]
-    
