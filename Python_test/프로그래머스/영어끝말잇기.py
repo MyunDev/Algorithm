@@ -7,7 +7,7 @@ def solution(n, words):
         word = words[idx] # words[idx] : 언급된 단어 
         count %= n 
         if (word in words[0:idx]) or (words[idx-1][-1] != word[0]): 
-            answer = [count +1, 1 + idx//n]
+            answer = [count + 1, 1 + idx//n]
             return answer 
         count +=1 
     return answer
