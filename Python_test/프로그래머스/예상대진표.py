@@ -1,4 +1,6 @@
 #https://hodunamu.com/python-%EC%98%88%EC%83%81-%EB%8C%80%EC%A7%84%ED%91%9C/
+#https://eda-ai-lab.tistory.com/500
+
 #https://programmers.co.kr/learn/courses/30/lessons/12985#
 
 def solution(n,a,b):
