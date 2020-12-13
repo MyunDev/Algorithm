@@ -6,6 +6,7 @@
 def solution(n,a,b):
     answer = 1
     
+    #b가 항상 큰 값이 되게 만들어줌
     if a > b :
         a, b = b, a
         
